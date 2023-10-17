@@ -3,7 +3,7 @@ class Bubble
 {
 private:
 	int* arr;
-	int elemt = 0;
+	int elemt;
 	void toSwap(const int FIRST, const int SECOND);
 public:
 	Bubble(const int SIZE);

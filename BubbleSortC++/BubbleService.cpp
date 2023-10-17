@@ -4,7 +4,7 @@
 using namespace std;
 
 Bubble::Bubble(const int SIZE)
-	: arr(new int[SIZE])
+	: elemt(0), arr(new int[SIZE])
 {}
 
 Bubble::~Bubble()
